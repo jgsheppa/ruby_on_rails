@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  .link-primary {
+    @apply text-transparent text-blue-60 visited:text-purple-600 underline;
+  }
+
+  .button-primary {
+    @apply cursor-pointer rounded bg-pink-400 h-fit w-fit text-white px-2 py-1
+  }
+}
+
+
